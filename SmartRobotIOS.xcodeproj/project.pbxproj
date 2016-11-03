@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C7059D1DCAEE53003EB6B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7059C1DCAEE53003EB6B6 /* main.m */; };
+		22C705A01DCAEE53003EB6B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C7059F1DCAEE53003EB6B6 /* AppDelegate.m */; };
+		22C705A31DCAEE53003EB6B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C705A21DCAEE53003EB6B6 /* ViewController.m */; };
+		22C705A61DCAEE53003EB6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C705A41DCAEE53003EB6B6 /* Main.storyboard */; };
+		22C705A81DCAEE53003EB6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C705A71DCAEE53003EB6B6 /* Assets.xcassets */; };
+		22C705AB1DCAEE53003EB6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C705A91DCAEE53003EB6B6 /* LaunchScreen.storyboard */; };
+		22C705B61DCAEE54003EB6B6 /* SmartRobotIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C705B51DCAEE54003EB6B6 /* SmartRobotIOSTests.m */; };
+		22C705C11DCAEE54003EB6B6 /* SmartRobotIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C705C01DCAEE54003EB6B6 /* SmartRobotIOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C705B21DCAEE54003EB6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C705901DCAEE53003EB6B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C705971DCAEE53003EB6B6;
+			remoteInfo = SmartRobotIOS;
+		};
+		22C705BD1DCAEE54003EB6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C705901DCAEE53003EB6B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C705971DCAEE53003EB6B6;
+			remoteInfo = SmartRobotIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C705981DCAEE53003EB6B6 /* SmartRobotIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartRobotIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C7059C1DCAEE53003EB6B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C7059E1DCAEE53003EB6B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22C7059F1DCAEE53003EB6B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22C705A11DCAEE53003EB6B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22C705A21DCAEE53003EB6B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22C705A51DCAEE53003EB6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22C705A71DCAEE53003EB6B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C705AA1DCAEE53003EB6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22C705AC1DCAEE53003EB6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C705B11DCAEE54003EB6B6 /* SmartRobotIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartRobotIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C705B51DCAEE54003EB6B6 /* SmartRobotIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartRobotIOSTests.m; sourceTree = "<group>"; };
+		22C705B71DCAEE54003EB6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C705BC1DCAEE54003EB6B6 /* SmartRobotIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartRobotIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C705C01DCAEE54003EB6B6 /* SmartRobotIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartRobotIOSUITests.m; sourceTree = "<group>"; };
+		22C705C21DCAEE54003EB6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C705951DCAEE53003EB6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C705AE1DCAEE54003EB6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C705B91DCAEE54003EB6B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C7058F1DCAEE53003EB6B6 = {
+			isa = PBXGroup;
+			children = (
+				22C7059A1DCAEE53003EB6B6 /* SmartRobotIOS */,
+				22C705B41DCAEE54003EB6B6 /* SmartRobotIOSTests */,
+				22C705BF1DCAEE54003EB6B6 /* SmartRobotIOSUITests */,
+				22C705991DCAEE53003EB6B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C705991DCAEE53003EB6B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C705981DCAEE53003EB6B6 /* SmartRobotIOS.app */,
+				22C705B11DCAEE54003EB6B6 /* SmartRobotIOSTests.xctest */,
+				22C705BC1DCAEE54003EB6B6 /* SmartRobotIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C7059A1DCAEE53003EB6B6 /* SmartRobotIOS */ = {
+			isa = PBXGroup;
+			children = (
+				22C7059E1DCAEE53003EB6B6 /* AppDelegate.h */,
+				22C7059F1DCAEE53003EB6B6 /* AppDelegate.m */,
+				22C705A11DCAEE53003EB6B6 /* ViewController.h */,
+				22C705A21DCAEE53003EB6B6 /* ViewController.m */,
+				22C705A41DCAEE53003EB6B6 /* Main.storyboard */,
+				22C705A71DCAEE53003EB6B6 /* Assets.xcassets */,
+				22C705A91DCAEE53003EB6B6 /* LaunchScreen.storyboard */,
+				22C705AC1DCAEE53003EB6B6 /* Info.plist */,
+				22C7059B1DCAEE53003EB6B6 /* Supporting Files */,
+			);
+			path = SmartRobotIOS;
+			sourceTree = "<group>";
+		};
+		22C7059B1DCAEE53003EB6B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C7059C1DCAEE53003EB6B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22C705B41DCAEE54003EB6B6 /* SmartRobotIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				22C705B51DCAEE54003EB6B6 /* SmartRobotIOSTests.m */,
+				22C705B71DCAEE54003EB6B6 /* Info.plist */,
+			);
+			path = SmartRobotIOSTests;
+			sourceTree = "<group>";
+		};
+		22C705BF1DCAEE54003EB6B6 /* SmartRobotIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22C705C01DCAEE54003EB6B6 /* SmartRobotIOSUITests.m */,
+				22C705C21DCAEE54003EB6B6 /* Info.plist */,
+			);
+			path = SmartRobotIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C705971DCAEE53003EB6B6 /* SmartRobotIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C705C51DCAEE54003EB6B6 /* Build configuration list for PBXNativeTarget "SmartRobotIOS" */;
+			buildPhases = (
+				22C705941DCAEE53003EB6B6 /* Sources */,
+				22C705951DCAEE53003EB6B6 /* Frameworks */,
+				22C705961DCAEE53003EB6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartRobotIOS;
+			productName = SmartRobotIOS;
+			productReference = 22C705981DCAEE53003EB6B6 /* SmartRobotIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C705B01DCAEE54003EB6B6 /* SmartRobotIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C705C81DCAEE54003EB6B6 /* Build configuration list for PBXNativeTarget "SmartRobotIOSTests" */;
+			buildPhases = (
+				22C705AD1DCAEE54003EB6B6 /* Sources */,
+				22C705AE1DCAEE54003EB6B6 /* Frameworks */,
+				22C705AF1DCAEE54003EB6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C705B31DCAEE54003EB6B6 /* PBXTargetDependency */,
+			);
+			name = SmartRobotIOSTests;
+			productName = SmartRobotIOSTests;
+			productReference = 22C705B11DCAEE54003EB6B6 /* SmartRobotIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C705BB1DCAEE54003EB6B6 /* SmartRobotIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C705CB1DCAEE54003EB6B6 /* Build configuration list for PBXNativeTarget "SmartRobotIOSUITests" */;
+			buildPhases = (
+				22C705B81DCAEE54003EB6B6 /* Sources */,
+				22C705B91DCAEE54003EB6B6 /* Frameworks */,
+				22C705BA1DCAEE54003EB6B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C705BE1DCAEE54003EB6B6 /* PBXTargetDependency */,
+			);
+			name = SmartRobotIOSUITests;
+			productName = SmartRobotIOSUITests;
+			productReference = 22C705BC1DCAEE54003EB6B6 /* SmartRobotIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C705901DCAEE53003EB6B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xin;
+				TargetAttributes = {
+					22C705971DCAEE53003EB6B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					22C705B01DCAEE54003EB6B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22C705971DCAEE53003EB6B6;
+					};
+					22C705BB1DCAEE54003EB6B6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22C705971DCAEE53003EB6B6;
+					};
+				};
+			};
+			buildConfigurationList = 22C705931DCAEE53003EB6B6 /* Build configuration list for PBXProject "SmartRobotIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C7058F1DCAEE53003EB6B6;
+			productRefGroup = 22C705991DCAEE53003EB6B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C705971DCAEE53003EB6B6 /* SmartRobotIOS */,
+				22C705B01DCAEE54003EB6B6 /* SmartRobotIOSTests */,
+				22C705BB1DCAEE54003EB6B6 /* SmartRobotIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C705961DCAEE53003EB6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C705AB1DCAEE53003EB6B6 /* LaunchScreen.storyboard in Resources */,
+				22C705A81DCAEE53003EB6B6 /* Assets.xcassets in Resources */,
+				22C705A61DCAEE53003EB6B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C705AF1DCAEE54003EB6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C705BA1DCAEE54003EB6B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C705941DCAEE53003EB6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C705A31DCAEE53003EB6B6 /* ViewController.m in Sources */,
+				22C705A01DCAEE53003EB6B6 /* AppDelegate.m in Sources */,
+				22C7059D1DCAEE53003EB6B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C705AD1DCAEE54003EB6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C705B61DCAEE54003EB6B6 /* SmartRobotIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C705B81DCAEE54003EB6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C705C11DCAEE54003EB6B6 /* SmartRobotIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C705B31DCAEE54003EB6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C705971DCAEE53003EB6B6 /* SmartRobotIOS */;
+			targetProxy = 22C705B21DCAEE54003EB6B6 /* PBXContainerItemProxy */;
+		};
+		22C705BE1DCAEE54003EB6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C705971DCAEE53003EB6B6 /* SmartRobotIOS */;
+			targetProxy = 22C705BD1DCAEE54003EB6B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22C705A41DCAEE53003EB6B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C705A51DCAEE53003EB6B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22C705A91DCAEE53003EB6B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C705AA1DCAEE53003EB6B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C705C31DCAEE54003EB6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22C705C41DCAEE54003EB6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C705C61DCAEE54003EB6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartRobotIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.SmartRobotIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22C705C71DCAEE54003EB6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartRobotIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.SmartRobotIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22C705C91DCAEE54003EB6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartRobotIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.SmartRobotIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartRobotIOS.app/SmartRobotIOS";
+			};
+			name = Debug;
+		};
+		22C705CA1DCAEE54003EB6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartRobotIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.SmartRobotIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartRobotIOS.app/SmartRobotIOS";
+			};
+			name = Release;
+		};
+		22C705CC1DCAEE54003EB6B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartRobotIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.SmartRobotIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartRobotIOS;
+			};
+			name = Debug;
+		};
+		22C705CD1DCAEE54003EB6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartRobotIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.SmartRobotIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartRobotIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C705931DCAEE53003EB6B6 /* Build configuration list for PBXProject "SmartRobotIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C705C31DCAEE54003EB6B6 /* Debug */,
+				22C705C41DCAEE54003EB6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C705C51DCAEE54003EB6B6 /* Build configuration list for PBXNativeTarget "SmartRobotIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C705C61DCAEE54003EB6B6 /* Debug */,
+				22C705C71DCAEE54003EB6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22C705C81DCAEE54003EB6B6 /* Build configuration list for PBXNativeTarget "SmartRobotIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C705C91DCAEE54003EB6B6 /* Debug */,
+				22C705CA1DCAEE54003EB6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22C705CB1DCAEE54003EB6B6 /* Build configuration list for PBXNativeTarget "SmartRobotIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C705CC1DCAEE54003EB6B6 /* Debug */,
+				22C705CD1DCAEE54003EB6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C705901DCAEE53003EB6B6 /* Project object */;
+}
