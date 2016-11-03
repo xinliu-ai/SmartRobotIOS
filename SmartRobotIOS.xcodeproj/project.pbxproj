@@ -15,6 +15,9 @@
 		22C705AB1DCAEE53003EB6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C705A91DCAEE53003EB6B6 /* LaunchScreen.storyboard */; };
 		22C705B61DCAEE54003EB6B6 /* SmartRobotIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C705B51DCAEE54003EB6B6 /* SmartRobotIOSTests.m */; };
 		22C705C11DCAEE54003EB6B6 /* SmartRobotIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C705C01DCAEE54003EB6B6 /* SmartRobotIOSUITests.m */; };
+		22D4A3D61DCAF1EE00022205 /* Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D4A3D51DCAF1EE00022205 /* Brain.m */; };
+		22D4A3DA1DCAF22F00022205 /* BrainBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D4A3D91DCAF22F00022205 /* BrainBL.m */; };
+		22D4A3DD1DCAF2EE00022205 /* BrianBLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D4A3DC1DCAF2EE00022205 /* BrianBLTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		22C705BC1DCAEE54003EB6B6 /* SmartRobotIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartRobotIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C705C01DCAEE54003EB6B6 /* SmartRobotIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartRobotIOSUITests.m; sourceTree = "<group>"; };
 		22C705C21DCAEE54003EB6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D4A3D41DCAF1EE00022205 /* Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brain.h; sourceTree = "<group>"; };
+		22D4A3D51DCAF1EE00022205 /* Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brain.m; sourceTree = "<group>"; };
+		22D4A3D81DCAF22F00022205 /* BrainBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrainBL.h; sourceTree = "<group>"; };
+		22D4A3D91DCAF22F00022205 /* BrainBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrainBL.m; sourceTree = "<group>"; };
+		22D4A3DC1DCAF2EE00022205 /* BrianBLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrianBLTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		22C7059A1DCAEE53003EB6B6 /* SmartRobotIOS */ = {
 			isa = PBXGroup;
 			children = (
+				22D4A3D71DCAF21A00022205 /* BusinessLogicLayer */,
+				22D4A3CF1DCAF17000022205 /* DataPersistLayer */,
 				22C7059E1DCAEE53003EB6B6 /* AppDelegate.h */,
 				22C7059F1DCAEE53003EB6B6 /* AppDelegate.m */,
 				22C705A11DCAEE53003EB6B6 /* ViewController.h */,
@@ -125,6 +135,7 @@
 		22C705B41DCAEE54003EB6B6 /* SmartRobotIOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				22D4A3DB1DCAF2C600022205 /* BusinessLogicLayerTests */,
 				22C705B51DCAEE54003EB6B6 /* SmartRobotIOSTests.m */,
 				22C705B71DCAEE54003EB6B6 /* Info.plist */,
 			);
@@ -138,6 +149,32 @@
 				22C705C21DCAEE54003EB6B6 /* Info.plist */,
 			);
 			path = SmartRobotIOSUITests;
+			sourceTree = "<group>";
+		};
+		22D4A3CF1DCAF17000022205 /* DataPersistLayer */ = {
+			isa = PBXGroup;
+			children = (
+				22D4A3D41DCAF1EE00022205 /* Brain.h */,
+				22D4A3D51DCAF1EE00022205 /* Brain.m */,
+			);
+			path = DataPersistLayer;
+			sourceTree = "<group>";
+		};
+		22D4A3D71DCAF21A00022205 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				22D4A3D81DCAF22F00022205 /* BrainBL.h */,
+				22D4A3D91DCAF22F00022205 /* BrainBL.m */,
+			);
+			path = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		22D4A3DB1DCAF2C600022205 /* BusinessLogicLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				22D4A3DC1DCAF2EE00022205 /* BrianBLTests.m */,
+			);
+			path = BusinessLogicLayerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +309,8 @@
 			files = (
 				22C705A31DCAEE53003EB6B6 /* ViewController.m in Sources */,
 				22C705A01DCAEE53003EB6B6 /* AppDelegate.m in Sources */,
+				22D4A3DA1DCAF22F00022205 /* BrainBL.m in Sources */,
+				22D4A3D61DCAF1EE00022205 /* Brain.m in Sources */,
 				22C7059D1DCAEE53003EB6B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D4A3DD1DCAF2EE00022205 /* BrianBLTests.m in Sources */,
 				22C705B61DCAEE54003EB6B6 /* SmartRobotIOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +538,7 @@
 				22C705C71DCAEE54003EB6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C705C81DCAEE54003EB6B6 /* Build configuration list for PBXNativeTarget "SmartRobotIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +547,7 @@
 				22C705CA1DCAEE54003EB6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C705CB1DCAEE54003EB6B6 /* Build configuration list for PBXNativeTarget "SmartRobotIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +556,7 @@
 				22C705CD1DCAEE54003EB6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
